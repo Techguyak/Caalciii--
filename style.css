@@ -18,32 +18,47 @@ body{
     align-items: center;
 } 
 .box1{
-    background-color: gray;
+    background-color: rgb(51, 46, 46);
     height: 480px;
     width: 412px;
-    padding: 6px 18px 0 18px;
+    /* padding: 6px 18px 0 18px; */
+}
+header{
+    height:100px ;
+    width:412px ;
+    background-color:black;
+    padding: 11px 18px 0 18px; ;
+
 }
 input.calci{
     height:70px;
     width:378px;
-    font-size: 60px;
+    font-size: 50px;
     border-radius: 10px;
+    color: rgb(51, 47, 47);
+    font-weight:lighter;
     outline: none;
     border: none;
-
+    background-color: white;
 }
 input,button{
     height:70px;
-    width: 73px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: grey;
+    border: none;
+    
 }
 .full-btns{
     height: 383px;
-    margin-top: 20px;
     display: grid;
     grid-template-columns: 70px 70px 70px 70px;
-    padding: 18px;
+    justify-content: center;
     column-gap:20px;
-    row-gap:20px;
+    row-gap:5px;
+
     
 
 }
