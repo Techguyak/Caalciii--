@@ -1,3 +1,0 @@
-function one (){
-    const onebtn= 
-}
