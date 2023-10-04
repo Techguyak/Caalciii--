@@ -5,9 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <input type="text" name="calci">
-    
-    
+    <input type="text" name="calci" id="calci"  placeholder="0" style="text-align: end
+    ;">
+    <div>
+    <input type="button" value="AC" onclick=" calci.value=''">
+    <input type="button" value="DEL" onclick=" calci.value=calci.value.toString().slice(0,-1)">
+    <input type="button" value="00" onclick=" calci.value+='00'">
+    <input type="button" value="=" onclick="calci.value=eval(calci.value)">
+
+    </div>
+    <div>
+    <input type="button" value="7" onclick=" calci.value+='7'">
+    <input type="button" value="8" onclick=" calci.value+='8'">
+    <input type="button" value="9" onclick=" calci.value+='9'">
+    <input type="button" value="+" onclick=" calci.value+='+'">
+    </div>
+
+    <div>
+        <input type="button" value="4" onclick=" calci.value+='4'">
+        <input type="button" value="5" onclick=" calci.value+='5'">
+        <input type="button" value="6" onclick=" calci.value+='6'">
+        <input type="button" value="-" onclick=" calci.value+='-'">
+        </div>
+
+    <div>
+        <input type="button" value="1" onclick=" calci.value+='1'">
+        <input type="button" value="2" onclick=" calci.value+='2'">
+        <input type="button" value="3" onclick=" calci.value+='3'">
+        <input type="button" value="*" onclick=" calci.value+='*'">
+        </div>
+
+    <div>
+        <input type="button" value="0" onclick=" calci.value+='0'">
+        <input type="button" value="." onclick=" calci.value+='.'">
+        <input type="button" value="EXP" onclick=" calci.value+='**'">
+        <input type="button" value="/" onclick=" calci.value+='/'">
+        </div>
+    <script src="index.js"></script>
 </body>
 </html>
