@@ -48,12 +48,13 @@ header{
 input,button{
     height:70px;
     width: 80px;
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 500;
     color: white;
-    background-color: rgb(131, 118, 118);
+    background-color: rgb(119, 110, 110);
     border: none;
     border-radius: 15px;
+    
     
 }
 .red-btn{
@@ -61,6 +62,14 @@ input,button{
 }
 .size-btn{
     font-size: 36px;
+}
+.mul-btn{
+    font-size: 50px;
+    padding-top: 17px;
+}
+.point-btn{
+    
+    font-size: 60px;
 }
 .full-btns{
     height: 383px;
