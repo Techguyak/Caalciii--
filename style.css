@@ -47,13 +47,17 @@ header{
 }
 input,button{
     height:70px;
-    width: 70px;
+    width: 80px;
     font-size: 20px;
     font-weight: 600;
     color: white;
-    background-color: rgb(155, 145, 145);
+    background-color: rgb(131, 118, 118);
     border: none;
+    border-radius: 15px;
     
+}
+.red-btn{
+    background-color: rgb(202, 43, 43);
 }
 .full-btns{
     height: 383px;
