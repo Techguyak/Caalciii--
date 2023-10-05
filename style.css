@@ -18,7 +18,7 @@ body{
     align-items: center;
 } 
 .box1{
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(25, 27, 34);
     height: 500px;
     width: 412px;
     border-radius: 30px;
@@ -46,7 +46,7 @@ header{
 
 }
 input,button{
-    height:70px;
+    height:65px;
     width: 80px;
     font-size: 28px;
     font-weight: 500;
@@ -54,6 +54,7 @@ input,button{
     background-color: rgb(119, 110, 110);
     border: none;
     border-radius: 15px;
+    
     
     
 }
@@ -75,7 +76,7 @@ input,button{
     height: 383px;
     display: grid;
     grid-template-columns: 70px 70px 70px 70px;
-    justify-content: center;
+    justify-content:center;
     column-gap:20px;
     row-gap:5px;
 
