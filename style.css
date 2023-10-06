@@ -54,6 +54,8 @@ input,button{
     background-color: rgb(119, 110, 110);
     border: none;
     border-radius: 15px;
+    text-align: center;
+
     
     
     
@@ -68,8 +70,7 @@ input,button{
     font-size: 50px;
     padding-top: 17px;
 }
-.point-btn{
-    
+.p-btn{
     font-size: 60px;
 }
 .full-btns{
@@ -79,5 +80,44 @@ input,button{
     justify-content:center;
     column-gap:20px;
     row-gap:5px;
+    background-color:rgba(54, 51, 51, 0.555);
 }
 
+@media (max-width:420px){
+    .box1{
+        height: 400px;
+        width: 350px;
+    }
+
+    header{
+        height:90px ;
+        width:350px ;
+        padding: 11px 20px 0 18px;
+    }
+
+    .calci{
+        height:60px;
+        width:320px;
+        font-size: 43px;
+    }
+
+    .full-btns{
+        height:310px;
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        column-gap:25px;
+    }
+    input,button{
+        height:50px;
+        width: 65px;
+        font-size: 20px;
+        font-weight: 500;
+}
+
+.mul-btn{
+    padding-top: 8px;
+}
+.point-btn{
+    font-size: 40px;
+}
+}
