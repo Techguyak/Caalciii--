@@ -3,51 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>calculator</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
     <div class="box">
-
     <div class="box1">  
-    <header>
-    <input type="text" name="calci" id="calci" class="calci" placeholder="0">
-    </header>
-    <div class="full-btns">
-    <input type="button" value="AC" class="red-btn" onclick=" calci.value=''">
-    <input type="button" value="DEL" class="red-btn" onclick=" calci.value=calci.value.toString().slice(0,-1)">
-    <input type="button" value="00" onclick=" calci.value+='00'">
-    
-    <input type="button" value="+" class="size-btn" onclick="calci.value+='+'">
-    
-    
-    <input type="button" value="7" onclick=" calci.value+='7'">
-    <input type="button" value="8" onclick=" calci.value+='8'">
-    <input type="button" value="9" onclick=" calci.value+='9'">
-    
-    <input type="button" value="-" class="size-btn" onclick=" calci.value+='-'">
-    
-    
 
-        <input type="button" value="4" onclick=" calci.value+='4'">
-        <input type="button" value="5" onclick=" calci.value+='5'">
-        <input type="button" value="6" onclick=" calci.value+='6'">
-        
-        <input type="button" value="*" class="size-btn mul-btn"  onclick=" calci.value+='*'">
+        <header>
+        <input type="text" name="calci" id="calci" class="calci" placeholder="0">
+        </header>
 
-        <input type="button" value="1" onclick=" calci.value+='1'">
-        <input type="button" value="2" onclick=" calci.value+='2'">
-        <input type="button" value="3" onclick=" calci.value+='3'">
-        <input type="button" value="/" class="size-btn" onclick=" calci.value+='/'">
+        <div class="full-btns">
+        <input type="button" value="AC" class="red-btn ac-btn">
+        <input type="button" value="DEL" class="red-btn del-btn">
+        <input type="button" value="00" class="dz-btn" >
+        <input type="button" value="+" class="size-btn a-btn">
         
-        <input type="button" value="0" onclick=" calci.value+='0'">
-        <input type="button" value="." class="size-btn point-btn" onclick=" calci.value+='.'">
-        <input type="button" value="EXP" onclick=" calci.value+='**'">
-        <input type="button" value="=" class="size-btn" onclick="calci.value=eval(calci.value)">
+        <input type="button" class="s-btn" value="7">
+        <input type="button" value="8" class="e-btn">
+        <input type="button" value="9" class="n-btn">
+        <input type="button" value="-" class="size-btn sub-btn">
+        
+        <input type="button" value="4" class="f-btn">
+        <input type="button" class="fi-btn" value="5">
+        <input type="button" value="6" class="si-btn">
+        <input type="button" value="*" class="size-btn mul-btn m-btn">
+
+        <input type="button" value="1" class="on-btn">
+        <input type="button" class="t-btn" value="2">
+        <input type="button" class="th-btn" value="3">
+        <input type="button" value="/"class="size-btn div-btn">
+            
+        <input type="button" value="0" class="z-btn">
+        <input type="button" value="."class="size-btn point-btn p-btn">
+        <input type="button" class="ex-btn" value="EXP">
+        <input type="button" value="=" class="size-btn eq-btn">
         
     </div>
     </div>   
     </div>
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
