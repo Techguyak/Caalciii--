@@ -107,7 +107,6 @@ input,button{
         grid-template-columns: auto auto auto auto ;
         row-gap: 0px;
         column-gap:5px;
-        background-color: rgba(0, 0, 0, 0.151);
     }
     input,button{
         height:50px;
