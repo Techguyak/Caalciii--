@@ -20,13 +20,13 @@ body{
 .box1{
     background-color: rgb(25, 27, 34);
     height: 500px;
-    width: 412px;
+    width: 470px;
     border-radius: 30px;
     /* padding: 6px 18px 0 18px; */
 }
 header{
     height:100px ;
-    width:412px ;
+    width:470px ;
     background-color:black;
     padding: 11px 18px 0 18px; ;
     border-radius: 20px;
@@ -34,7 +34,7 @@ header{
 }
  .calci{
     height:70px;
-    width:378px;
+    width:435px;
     font-size: 50px;
     border-radius: 10px;
     color: rgb(51, 47, 47);
@@ -76,7 +76,7 @@ input,button{
 .full-btns{
     height: 383px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns:auto auto auto auto auto;
     justify-content:center;
     column-gap:12px;
     row-gap:5px;
@@ -120,5 +120,8 @@ input,button{
 }
 .point-btn{
     font-size: 40px;
+}
+.hide-btn{
+    display: none;
 }
 }

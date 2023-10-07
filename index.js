@@ -1,3 +1,39 @@
+document.querySelector('.sin-btn').addEventListener('click',()=>{
+    let sin= calci.value    
+    let ans= Math.sin(sin * Math.PI/180);
+    calci.value = ans.toFixed(3);
+   }
+)
+
+document.querySelector('.cos-btn').addEventListener('click',()=>{
+    let cos= calci.value    
+    let ans= Math.cos(cos * Math.PI/180);
+    calci.value = ans.toFixed(3);
+   }
+)
+
+document.querySelector('.tan-btn').addEventListener('click',()=>{
+    let tan= calci.value    
+    let ans= Math.tan(tan * Math.PI/180);
+    calci.value = ans.toFixed(3);
+   }
+)
+
+document.querySelector('.log-btn').addEventListener('click',()=>{
+    let log= calci.value    
+    let ans= Math.log10(log);
+    calci.value = ans.toFixed(3);
+   }
+)
+
+document.querySelector('.sqrt-btn').addEventListener('click',()=>{
+    let sqrt= calci.value    
+    let ans= Math.sqrt(sqrt);
+    calci.value = ans.toFixed(3);
+   }
+)
+
+
 document.querySelector('.ac-btn').addEventListener('click',()=>{
     calci.value='';
 });
