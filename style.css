@@ -76,9 +76,9 @@ input,button{
 .full-btns{
     height: 383px;
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-columns: auto auto auto auto;
     justify-content:center;
-    column-gap:20px;
+    column-gap:12px;
     row-gap:5px;
 
 }
@@ -86,36 +86,38 @@ input,button{
 @media (max-width:420px){
     .box1{
         height: 400px;
-        width: 350px;
+        width: 300px;
     }
 
     header{
-        height:90px ;
-        width:350px ;
+        height:80px ;
+        width:300px ;
         padding: 11px 20px 0 18px;
     }
 
     .calci{
-        height:60px;
-        width:320px;
-        font-size: 43px;
+        height:55px;
+        width:270px;
+        font-size: 40px;
     }
 
     .full-btns{
-        height:310px;
+        height:320px;
         display: grid;
-        grid-template-columns: 50px 50px 50px 50px;
-        column-gap:25px;
+        grid-template-columns: auto auto auto auto ;
+        row-gap: 0px;
+        column-gap:5px;
+        background-color: rgba(0, 0, 0, 0.151);
     }
     input,button{
         height:50px;
         width: 65px;
-        font-size: 20px;
+        font-size: 19px;
         font-weight: 500;
 }
 
 .mul-btn{
-    padding-top: 8px;
+    padding-top: 5px;
 }
 .point-btn{
     font-size: 40px;
